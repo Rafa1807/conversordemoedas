@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+<header>
+
+</header>
+<section class="container">
 
     <section id="containerdolar">
         <h1>Cotação Dolar</h1>
-        <input id="userInputDolar" type="text">
-        <button type="submit" value="ConverterDolar" onclick="converterdolar()">Enviar</button>
+        <input id="userInputDolar" type="text" placeholder="Qual valor deseja?">
+        <button class="botao" type="submit" value="ConverterDolar" onclick="converterdolar()">Enviar</button>
         <h2 id="resultadodolar"></h1>
+        <img class="eua" src="./fotos/estados-unidos-icone.png">
     </section>
 
+    <div class="linha"></div>
 
     <section id="containereuro">
         <h1>Cotação Euro</h1>
-        <input id="valoreuro" type="text">
-        <button type="submit" value="ConverterEuro" onclick="convertereuro()">Enviar</button>
+        <input id="valoreuro" type="text" placeholder="Qual valor deseja?">
+        <button class="botao" type="submit" value="ConverterEuro" onclick="convertereuro()">Enviar</button>
         <h2 id="resultadoeuro"></h1>
+        <img class="eur" src="./fotos/323344.png">  
     </section>
-
+</section>
+<footer>
+    
+</footer>
     <script src="./script.js"></script>
 </body>
 </html>

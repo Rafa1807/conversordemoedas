@@ -186,56 +186,43 @@ todasAsNotas(11)
 todasAsNotas(101)*/
 
 
+
+
+
+
+
+
+
+
+
+
 let url = "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL"
-
-
 
 function converterdolar() { 
     let userInput = document.getElementById("userInputDolar").value;
-
     fetch(url).then((res) => {
-
         return res.json()
     
     })
     .then((data)=> {
-
         let USDBRL = parseFloat(data.USDBRL.bid)
-        // console.log(USDBRL)
-        // console.log(userInput)
         const conversion = (USDBRL * userInput).toFixed(2)
-        // console.log(conversion)
         let resultado = `${userInput} Dolar(s) = ${conversion} em Reais`
-        
-        // console.log(data.USDBRL.bid)
         document.getElementById("resultadodolar").innerHTML = (resultado)
-        console.log(data)
-        
     })
 }
 
 function convertereuro() { 
     let input = document.getElementById("valoreuro");
     let valorreal= input.value;
-    
-
     fetch(url).then((res) => {
-
         return res.json()
-    
     })
     .then((data)=> {
-
         let EURBRL = parseFloat(data.EURBRL.bid)
-        
         const conversion = (EURBRL * valorreal).toFixed(2)
-        
         let resultado = `${valorreal} Euro(s) = ${conversion} em Reais`
-        
-        
         document.getElementById("resultadoeuro").innerHTML = (resultado)
-        console.log(data)
-        
     })
 }
 

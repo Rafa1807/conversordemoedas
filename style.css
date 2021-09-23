@@ -1,0 +1,99 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.linha {
+    margin-top: 90px;
+    height: 250px;
+    border-right: 1px solid rgba(108, 108, 108, 0.276);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#containerdolar {
+    display: inline-flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+}
+.eua {
+   width: 200px;
+}
+#containereuro {
+    display:inline-flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+}
+
+.eur {
+    width: 200px;
+}
+
+.botao {
+    width: 173px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgb(16, 16, 16);
+    color: white;
+    background-color: tomato;
+    font-style: italic;
+    border-width: 2px;
+    font-size: 16px;
+}
+.botao:hover {
+    background-color: rgb(181, 60, 39);
+    color: rgb(255, 255, 255);
+    
+}
+
+#userInputDolar{
+    height: 25px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 16px;
+}
+#valoreuro {
+    height: 25px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 16px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+footer {
+    background-color: white;
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: 50px;
+    width: 100%;
+    
+  
+    
+}
