@@ -1,0 +1,22 @@
+{
+  "name": "conversordemoedas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafa1807/conversordemoedas.git"
+  },
+  "author": "Rafael Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafa1807/conversordemoedas/issues"
+  },
+  "homepage": "https://github.com/Rafa1807/conversordemoedas#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
